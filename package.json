@@ -2,6 +2,8 @@
   "name": "barbershop",
   "version": "0.1.0",
   "private": true,
+  "author": "DavidyukVova",
+  "username": "DavidyukVova",
   "homepage": "https://DavidyukVova.github.io/barbershop",
   "dependencies": {
     "@babel/core": "^7.9.6",
