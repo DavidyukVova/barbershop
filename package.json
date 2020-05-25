@@ -2,9 +2,6 @@
   "name": "barbershop",
   "version": "0.1.0",
   "private": true,
-  "author": "DavidyukVova",
-  "username": "DavidyukVova",
-  "homepage": "https://DavidyukVova.github.io/barbershop",
   "dependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
@@ -33,8 +30,6 @@
     "webpack-notifier": "^1.8.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -55,7 +50,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
-  }
+  "devDependencies": {}
 }

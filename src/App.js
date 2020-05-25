@@ -15,6 +15,7 @@ import Services from "./components/Servise/Services";
 import Gallery from "./components/Gallery/Gallery";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
+import Barber from "./components/Barbers/Barber/Barber";
 
 class App extends React.Component {
 
@@ -66,6 +67,7 @@ class App extends React.Component {
                             <Route exact path={`/${lng}/gallery`} component={Gallery} key="gallery"/>
                             <Route exact path={`/${lng}/about`} component={About} key="about"/>
                             <Route exact path={`/${lng}/contacts`} component={Contacts} key="contacts"/>
+                            <Route path={`/${lng}/barber/:id`} component={Barber} key="barber"/>
 
 
                             <Route path={`/${lng}/`} component={NotFound} />

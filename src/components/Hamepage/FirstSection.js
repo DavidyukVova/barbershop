@@ -8,7 +8,7 @@ const FirstSection = () => {
         <div className={classes.firstSection}>
             <div className={classes.contentBlock}>
                 <div>
-                    <h1 className={classes.title}>Cartel Barbershop</h1>
+                    <h1 className={classes.firstTitle}>Cartel Barbershop</h1>
                     <h3 className={classes.subTitle}>{i18n.t('on the Druzhby Narodiv')}</h3>
                     <Button size={"lg"} className={classes.entryButton} variant="outline-secondary">{i18n.t('Entry')}</Button>
                 </div>
