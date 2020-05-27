@@ -244,3 +244,36 @@
     color: #ffffff;
     text-align: center;
 }
+
+.fiveSection {
+    background-color: #0a0e0e;
+    padding-top: 80px;
+    padding-bottom: 74px;
+}
+
+.fiveSection .gallery {
+    margin-top: 117px;
+}
+
+.fiveSection .imageWrap {
+    position: relative;
+}
+
+.fiveSection .imageWrap img {
+    position: relative;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 530px;
+}
+
+.fiveSection .imageWrap:before {
+    content: '';
+    border: 3px solid #FFE600;
+    width: 80%;
+    height: 90%;
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: 15%;
+    right: 0;
+}
