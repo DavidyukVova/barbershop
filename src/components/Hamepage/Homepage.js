@@ -5,6 +5,7 @@ import i18n from '../../i18n';
 import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 import FourSection from "./FourSection";
+import FiveSection from "./FiveSection";
 
 export default () => {
     document.title = `Cartel Barbershop - ${i18n.t('Main')}`;
@@ -14,6 +15,7 @@ export default () => {
             <SecondSection/>
             <ThirdSection/>
             <FourSection/>
+            <FiveSection/>
         </Layout>
     )
 };

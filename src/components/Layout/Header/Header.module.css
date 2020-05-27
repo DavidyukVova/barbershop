@@ -1,11 +1,15 @@
 .headerWrap {
-    max-width: 1270px;
-    margin: 0 auto;
+    z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    transition: 0.15s all linear;
+}
+
+.headerContainer {
+    max-width: 1270px;
+    margin: 0 auto;
 }
 .header {
     min-height: 120px;
