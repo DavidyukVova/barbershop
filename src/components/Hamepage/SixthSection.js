@@ -55,6 +55,7 @@ const SixthSection = ({env}) => {
         </div>
     )
 };
+
 const mapStateToProps = (state) => ({
     env: state.env,
 });
