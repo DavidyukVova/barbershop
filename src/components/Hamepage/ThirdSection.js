@@ -25,7 +25,7 @@ const ThirdSection = ({barbers, history}) => {
                                     <Col md={4}>
                                         <div className={classes.item} key={index}>
                                             <Link to={`/${i18n.language}/barber/${barber.id}`}>
-                                                <img src={barber.image} alt={barber.name}/>
+                                                <img src={process.env.PUBLIC_URL+barber.image} alt={barber.name}/>
                                                 <div className={classes.info}>
                                                     <h6>
                                                         {i18n.t(`${barber.name}`)}

@@ -5,7 +5,7 @@ import {Button} from "react-bootstrap";
 
 const FirstSection = () => {
     return (
-        <div className={classes.firstSection}>
+        <div className={classes.firstSection} style={{backgroundImage: `url("${process.env.PUBLIC_URL}/images/firstSectionBg.jpg")`}}>
             <div className={classes.contentBlock}>
                 <div>
                     <h1 className={classes.firstTitle}>Cartel Barbershop</h1>

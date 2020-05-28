@@ -37,7 +37,7 @@ const Header = () => {
                         <Col md={4}>
                             <div  className={classes.logoWrap}>
                                 <Link to={`/${i18n.language}/`}>
-                                    <img src="/images/logo.svg" alt="logo"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/logo.svg` } alt="logo"/>
                                 </Link>
                             </div>
                         </Col>

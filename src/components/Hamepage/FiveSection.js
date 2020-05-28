@@ -20,15 +20,15 @@ export const FiveSection = ({history}) => {
                         <Row>
                             <Col md={6}>
                                 <div className={classes.imageWrap}>
-                                    <img src="/images/galleryPreview/preview1.jpg" alt="preview"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/galleryPreview/preview1.jpg`} alt="preview"/>
                                 </div>
                             </Col>
                             <Col md={6}>
                                 <div className={classes.imageWrap}>
-                                    <img src="/images/galleryPreview/preview2.jpg" alt="preview"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/galleryPreview/preview2.jpg`} alt="preview"/>
                                 </div>
                                 <div className={classes.imageWrap}>
-                                    <img src="/images/galleryPreview/preview3.jpg" alt="preview"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/galleryPreview/preview3.jpg`} alt="preview"/>
                                 </div>
                             </Col>
                         </Row>

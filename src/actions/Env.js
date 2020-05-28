@@ -12,7 +12,5 @@ export const load = () => (
     )
 );
 
-export const setMiniCart = (payload) => ({type: EnvConstant.SET_MINI_CART, payload});
-
 const set = (data) => ({type: EnvConstant.SET, payload: data});
 

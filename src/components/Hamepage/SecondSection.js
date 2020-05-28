@@ -19,7 +19,7 @@ const SecondSection = () => {
                         <Row>
                             <Col md={6}>
                                 <div className={classes.secondSectionPhotoWrap}>
-                                    <img className={classes.secondSectionPhoto} src="/images/whoAreWe.jpg" alt="who are we"/>
+                                    <img className={classes.secondSectionPhoto} src={`${process.env.PUBLIC_URL}/images/whoAreWe.jpg`} alt="who are we"/>
                                 </div>
                             </Col>
                             <Col md={6}>
