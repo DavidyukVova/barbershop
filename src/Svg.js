@@ -27,3 +27,7 @@ export const PhoneIco = () => (
 export const MailIco = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="43" viewBox="0 0 42 43" fill="none"><path d="M7.00005 7.1665H35C36.925 7.1665 38.5 8.779 38.5 10.7498V32.2498C38.5 34.2207 36.925 35.8332 35 35.8332H7.00005C5.07505 35.8332 3.50005 34.2207 3.50005 32.2498V10.7498C3.50005 8.779 5.07505 7.1665 7.00005 7.1665Z" stroke="#F2F2F2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M38.5 10.75L21 23.2917L3.50005 10.75" stroke="#F2F2F2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
 );
+
+export const ArrowIco = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M8.33337 20H31.6667" stroke="white" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/><path d="M20 8.33494L31.6667 20.0016L20 31.6683" stroke="white" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/></svg>
+);

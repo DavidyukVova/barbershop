@@ -1,0 +1,65 @@
+.headerWrap {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.15s all linear;
+}
+
+.headerContainer {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+.header {
+    min-height: 120px;
+}
+
+.header .logoWrap {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.header .menuLink {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #ffffff;
+    padding: 0 4px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: 0.15s all linear;
+}
+
+.header .menuLink:last-child {
+    margin-right: 0;
+}
+
+.header .menuLink.active {
+    border-bottom: 3px solid #FFE600;
+}
+
+.infoBlock {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.infoBlock .item {
+    margin-left: 25px;
+}
+
+.infoBlock .item:first-child {
+    margin-left: 0;
+}
+
+.infoBlock .langButtonWrap button {
+    padding: 12px 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.socialBlock a + a {
+    margin-left: 16px;
+}
