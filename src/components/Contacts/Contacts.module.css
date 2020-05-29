@@ -1,0 +1,39 @@
+.contentWrap {
+    margin: 0 auto;
+    max-width: 1270px;
+}
+
+.contactsSection {
+    background-color: #0a0e0e;
+    padding-top: 181px;
+    padding-bottom: 336px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactsSection .contentBlock {
+    padding-top: 93px;
+}
+
+.contactsSection .infoBlock {
+    margin-top: 52px;
+}
+
+.contactsSection .infoBlock .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.contactsSection .infoBlock .item svg {
+    margin-right: 53px;
+}
+
+.contactsSection .infoBlock .item p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
