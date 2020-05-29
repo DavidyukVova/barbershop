@@ -8,6 +8,7 @@ import {connect} from "react-redux";
 import * as Svg from '../../Svg';
 
 const Barbers = ({barbers}) => {
+    document.title = `Cartel Barbershop - ${i18n.t('Barbers')}`;
     return (
         <LayoutNoFooter>
             <Container fluid={true}>
