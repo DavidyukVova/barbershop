@@ -1,0 +1,9 @@
+.galleryBlock {
+    padding-top: 129px;
+}
+
+.tabsButtonWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
