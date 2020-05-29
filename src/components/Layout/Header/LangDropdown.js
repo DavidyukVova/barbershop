@@ -28,7 +28,7 @@ const LangDropdown = ({history, location}) => {
     return (
         <>
             <DropdownButton id="dropdown-item-button" className={classes.langButtonWrap} variant="outline-primary" title={languages.map((lng, index) => (
-                    <>{i18n.language === lng ? lngTitles.hasOwnProperty(lng)?lngTitles[lng]:lng : ''}</>
+                    <span key={index}>{i18n.language === lng ? lngTitles.hasOwnProperty(lng)?lngTitles[lng]:lng : ''}</span>
                 ))}>
                 {languages.map( (lng, index) => (
                     <Dropdown.Item

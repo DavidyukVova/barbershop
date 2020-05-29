@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a1e54de-b719-444c-a2e0-5de1af79816a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hamepage/SixthSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hamepage/SixthSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Servise/Service.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Servise/Service.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="40" />
+                <state relative-caret-position="264">
+                  <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -64,14 +62,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SecondSection.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="44">
+                  <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -103,8 +98,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Svg.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="503">
-                  <caret line="31" column="99" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
+                <state relative-caret-position="-171">
+                  <caret line="3" column="810" selection-start-line="3" selection-start-column="810" selection-end-line="3" selection-end-column="810" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="440">
+                  <caret line="38" column="74" lean-forward="true" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -182,8 +189,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+                <state relative-caret-position="308">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
@@ -218,7 +225,6 @@
         <option value="$PROJECT_DIR$/src/components/Layout/Hamepage/Homepage.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/index.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Header/Info.js" />
-        <option value="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" />
         <option value="$PROJECT_DIR$/src/components/404page.js" />
         <option value="$PROJECT_DIR$/src/components/Servise.js" />
         <option value="$PROJECT_DIR$/src/components/Servise/Servise.js" />
@@ -226,7 +232,6 @@
         <option value="$PROJECT_DIR$/src/components/Gallery/Gallery.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Layout.module.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/Layout/Header/Menu.js" />
         <option value="$PROJECT_DIR$/src/components/About/About.js" />
         <option value="$PROJECT_DIR$/src/constants/Barbers.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
@@ -246,14 +251,11 @@
         <option value="$PROJECT_DIR$/src/actions/Env.js" />
         <option value="$PROJECT_DIR$/src/reducers/Env.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Footer/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Hamepage/SecondSection.js" />
-        <option value="$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/FirstSection.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/FiveSection.js" />
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/index.js" />
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Layout.module.css" />
         <option value="$PROJECT_DIR$/src/reducers/Barbers.js" />
-        <option value="$PROJECT_DIR$/src/Svg.js" />
         <option value="$PROJECT_DIR$/src/components/Barbers/Barbers.module.css" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css" />
         <option value="$PROJECT_DIR$/src/components/Barbers/Barbers.js" />
@@ -263,6 +265,11 @@
         <option value="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" />
         <option value="$PROJECT_DIR$/src/components/Servise/Service.module.css" />
         <option value="$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Header/Menu.js" />
+        <option value="$PROJECT_DIR$/src/components/Hamepage/SecondSection.js" />
+        <option value="$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js" />
+        <option value="$PROJECT_DIR$/src/Svg.js" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" />
       </list>
     </option>
   </component>
@@ -354,6 +361,14 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Layout" type="462c0819:PsiDirectoryNode" />
               <item name="Footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
@@ -461,7 +476,7 @@
       <workItem from="1590592469106" duration="9916000" />
       <workItem from="1590681963561" duration="10813000" />
       <workItem from="1590733921927" duration="101000" />
-      <workItem from="1590762363291" duration="8310000" />
+      <workItem from="1590762363291" duration="10871000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1590338653322</created>
@@ -540,11 +555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590770838112</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add contacts page data">
+      <created>1590772300216</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590772300216</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97386000" />
+    <option name="totallyTimeSpent" value="99947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -586,19 +608,10 @@
     <MESSAGE value="add photo" />
     <MESSAGE value="add barbers page data" />
     <MESSAGE value="add services page data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add services page data" />
+    <MESSAGE value="add contacts page data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add contacts page data" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/src/components/NotFound.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,16 +619,6 @@
           <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="108" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -864,23 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Svg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="31" column="99" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barbers.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -978,15 +964,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SecondSection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        <state relative-caret-position="44">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Svg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="3" column="810" selection-start-line="3" selection-start-column="810" selection-end-line="3" selection-end-column="810" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="38" column="74" lean-forward="true" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

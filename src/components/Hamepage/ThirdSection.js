@@ -22,8 +22,8 @@ const ThirdSection = ({barbers, history}) => {
                         <Row>
                             {
                                 barbers.barbers.map((barber, index) => (
-                                    <Col md={4}>
-                                        <div className={classes.item} key={index}>
+                                    <Col md={4} key={index}>
+                                        <div className={classes.item}>
                                             <Link to={`/${i18n.language}/barber/${barber.id}`}>
                                                 <img src={process.env.PUBLIC_URL+barber.image} alt={barber.name}/>
                                                 <div className={classes.info}>
