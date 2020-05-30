@@ -1,1 +1,1 @@
-export const SET = 'set env';
+export const SET = 'set barbers';

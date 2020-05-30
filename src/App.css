@@ -88,3 +88,10 @@ p {
     font-size: 12px;
     line-height: 20px;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: inherit;
+    border-bottom: 2px solid #FFE600;
+    border-radius: 0;
+}
