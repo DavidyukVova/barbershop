@@ -95,3 +95,9 @@ p {
     border-bottom: 2px solid #FFE600;
     border-radius: 0;
 }
+
+@media (max-width: 991px) {
+    .dropdown-menu {
+        background-color: #26252a;
+    }
+}

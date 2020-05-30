@@ -356,6 +356,10 @@
         padding-bottom: 0;
     }
 
+    .barbersWrap .item {
+        margin-bottom: 20px;
+    }
+
     .barbersWrap .info h6 {
         font-size: 26px;
     }
@@ -392,6 +396,7 @@
     }
     .sixthSection {
         padding-top: 0;
+        padding-bottom: 50px;
     }
 
     .sixthSection img {
@@ -420,6 +425,10 @@
 
     .sixthSection .infoBlock .item p {
         font-size: 16px;
+    }
+
+    .fourSection .bottomBlock h6 {
+        font-size: 22px;
     }
 }
 

@@ -54,3 +54,14 @@
 .copyright {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .footerSocial {
+        justify-content: center;
+    }
+
+    .locationBlock {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
