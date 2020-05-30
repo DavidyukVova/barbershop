@@ -50,3 +50,19 @@
 .video {
     margin-bottom: 30px;
 }
+
+@media (max-width: 991px) {
+    .video {
+        height: 195px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .video {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 575px) {
+
+}

@@ -373,6 +373,10 @@
 }
 
 @media (max-width: 768px) {
+    .firstTitle {
+        font-size: 38px;
+        text-align: center;
+    }
     .title{
         text-align: center;
     }
