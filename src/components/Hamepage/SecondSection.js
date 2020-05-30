@@ -17,12 +17,12 @@ const SecondSection = () => {
                     </Row>
                     <div className={classes.secondSectionContent}>
                         <Row>
-                            <Col md={6}>
+                            <Col md={6} sm={12} xs={12}>
                                 <div className={classes.secondSectionPhotoWrap}>
                                     <img className={classes.secondSectionPhoto} src={`${process.env.PUBLIC_URL}/images/whoAreWe.jpg`} alt="who are we"/>
                                 </div>
                             </Col>
-                            <Col md={6}>
+                            <Col md={6} sm={12} xs={12}>
                                 <p className={classes.description}>
                                     Cartel на Дружбы Народов — место, где мастер станет твоим другом и соратником, подберет необходимый образ. Своих людей встречаешь нечасто, но когда встречаешь — это бесценно.
                                 </p>

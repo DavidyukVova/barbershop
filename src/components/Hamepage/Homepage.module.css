@@ -299,6 +299,11 @@
     margin-bottom: 22px;
 }
 
+.sixthSection img {
+    width: 100%;
+    max-width: 362px;
+}
+
 .sixthSection .infoBlock .item svg {
     margin-right: 53px;
 }
@@ -307,6 +312,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 20px;
+    margin-bottom: 0;
     letter-spacing: 0.03em;
     color: #ffffff;
 }
@@ -315,20 +321,110 @@
     .title:before {
         left: 10%;
     }
+    .secondSectionPhoto {
+        margin: 20px 0 0 20px;
+    }
+    .priceList .item {
+        min-width: 470px;
+    }
+    .fiveSection .imageWrap:before {
+        width: 84%;
+    }
 }
 
 @media (max-width: 991px) {
     .title:before {
         left: 0;
     }
+    .priceList {
+        justify-content: center;
+    }
+    .priceList .item {
+        margin-bottom: 20px;
+        width: 100%;
+        min-width: auto;
+    }
+    .thirdSection {
+        padding-top: 40px;
+    }
+
+    .fourSection {
+        padding-top: 40px;
+    }
+
+    .barbersWrap {
+        padding-bottom: 0;
+    }
+
+    .barbersWrap .info h6 {
+        font-size: 26px;
+    }
+
+    .sixthSection {
+        padding-top: 40px;
+    }
+    .fiveSection .imageWrap {
+        max-width: 100%;
+    }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .title{
         text-align: center;
     }
 
     .title:before {
+        display: none;
+    }
+
+    .secondSectionPhotoWrap {
+        margin-bottom: 40px;
+    }
+
+    .secondSectionPhotoWrap:before {
+        width: 65%;
+    }
+    .fourSection {
+        padding-top: 0;
+    }
+    .fiveSection .imageWrap img {
+        max-width: 96%;
+    }
+    .sixthSection {
+        padding-top: 0;
+    }
+
+    .sixthSection img {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .sixthSection .infoBlock .item svg {
+        margin-right: 20px;
+    }
+
+    .sixthSection .infoBlock .item p {
+        font-size: 18px;
+    }
+    .secondSectionPhoto {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .sixthSection .infoBlock .item svg {
+        margin-right: 10px;
+        width: 30px;
+    }
+
+    .sixthSection .infoBlock .item p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    .sixthSection .infoBlock .item svg {
         display: none;
     }
 }
