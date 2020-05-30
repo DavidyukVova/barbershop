@@ -375,10 +375,13 @@
 @media (max-width: 768px) {
     .firstTitle {
         font-size: 38px;
+        line-height: 46px;
         text-align: center;
     }
     .title{
         text-align: center;
+        font-size: 32px;
+        line-height: 42px;
     }
 
     .title:before {
@@ -433,6 +436,9 @@
 
     .fourSection .bottomBlock h6 {
         font-size: 22px;
+    }
+    .priceList .item {
+        padding: 25px 15px 50px;
     }
 }
 
