@@ -60,6 +60,59 @@
     line-height: 20px;
 }
 
+.socialBlock {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
 .socialBlock a + a {
     margin-left: 16px;
+}
+
+.menuButton {
+    position: fixed;
+    top: 56px;
+    right: 30px;
+}
+
+@media (max-width: 1300px) {
+    .infoBlock .item {
+        margin-left: 20px;
+    }
+    .header .menuLink {
+        margin-right: 15px;
+        padding: 0 2px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 991px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .menuLink {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .accordion {
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+
+    .infoBlock {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoBlock .item {
+        margin: 20px 0;
+    }
 }

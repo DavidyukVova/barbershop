@@ -310,3 +310,25 @@
     letter-spacing: 0.03em;
     color: #ffffff;
 }
+
+@media (max-width: 1200px) {
+    .title:before {
+        left: 10%;
+    }
+}
+
+@media (max-width: 991px) {
+    .title:before {
+        left: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .title{
+        text-align: center;
+    }
+
+    .title:before {
+        display: none;
+    }
+}
