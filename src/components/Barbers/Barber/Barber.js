@@ -1,23 +1,27 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import Layout from "../../Layout";
-import * as Api from "../../../api";
+import {connect} from "react-redux";
+import i18n from "../../../i18n";
 
-const Barber = ({match}) => {
+const Barber = ({match, barbers}) => {
     const {id} = match.params;
-
-    const [item, setItem] = useState({});
-
-    useEffect(e => {
-        Api.get(`/catalog/product/${id}`)
-            .then(response => {
-                setItem(response.data);
-            })
-    }, [id]);
 
     return (
         <Layout>
-            <p>This will be barber {item.id}</p>
+            {
+                barbers.barbers
+                    .filter((barber, index) => (parseInt(barber.id) === parseInt(id)))
+                    .map((barber, index) => (
+                    <p key={index}>
+                        {i18n.t(`${barber.name}`)}
+                    </p>
+                ))
+            }
         </Layout>
     )
 };
-export default Barber;
+const mapStateToProps = (state) => ({
+    barbers: state.barbers,
+});
+
+export default connect(mapStateToProps)(Barber);
