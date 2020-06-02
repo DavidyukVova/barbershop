@@ -35,18 +35,18 @@ const FourSection = () => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Men\'s haircut')}
+                                    {i18n.t('Beard haircut')}
                                 </p>
                                 <label>
-                                    500{i18n.t('usd')}
+                                    300{i18n.t('usd')}
                                 </label>
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Men\'s haircut')}
+                                    {i18n.t('Haircut + Beard')}
                                 </p>
                                 <label>
-                                    500{i18n.t('usd')}
+                                    700{i18n.t('usd')}
                                 </label>
                             </div>
                         </div>
@@ -59,20 +59,20 @@ const FourSection = () => {
                                     {i18n.t('Men\'s haircut')}
                                 </p>
                                 <label>
-                                    500{i18n.t('usd')}
+                                    350{i18n.t('usd')}
                                 </label>
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Men\'s haircut')}
+                                    {i18n.t('Beard haircut')}
                                 </p>
                                 <label>
-                                    500{i18n.t('usd')}
+                                    200{i18n.t('usd')}
                                 </label>
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Men\'s haircut')}
+                                    {i18n.t('Haircut + Beard')}
                                 </p>
                                 <label>
                                     500{i18n.t('usd')}

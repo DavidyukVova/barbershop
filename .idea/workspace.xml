@@ -3,12 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0a1e54de-b719-444c-a2e0-5de1af79816a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/Barbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Barbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hamepage/SecondSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hamepage/SecondSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/Barbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Barbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/Barbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/Barbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hamepage/FourSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hamepage/FourSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hamepage/SixthSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hamepage/SixthSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Footer/Social.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer/Social.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Servise/Service.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Servise/Service.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Servise/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Servise/Services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/translations/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/ru.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/translations/uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/uk.json" afterDir="false" />
     </list>
@@ -23,10 +30,19 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js">
+            <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Header.module.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="328">
-                  <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="82" />
+                <state relative-caret-position="242">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="217">
+                  <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -35,36 +51,21 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js">
+            <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/Social.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="154">
+                  <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SecondSection.js">
+            <entry file="file://$PROJECT_DIR$/src/components/Hamepage/FourSection.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="36" selection-end-column="36" />
+                <state relative-caret-position="393">
+                  <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="60" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/About/About.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="528">
-                  <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -73,59 +74,65 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/translations/ru.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
-                  <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="31" selection-end-column="77" />
+                <state relative-caret-position="269">
+                  <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/translations/uk.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="569">
-                  <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+                <state relative-caret-position="306">
+                  <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/actions/Barbers.js">
+            <entry file="file://$PROJECT_DIR$/src/components/Servise/Services.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+                <state relative-caret-position="283">
+                  <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="62" />
                   <folding>
-                    <element signature="e#0#56#0" expanded="true" />
+                    <element signature="e#0#25#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/reducers/Barbers.js">
+            <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+                <state relative-caret-position="330">
+                  <caret line="42" column="88" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
                   <folding>
-                    <element signature="e#0#57#0" expanded="true" />
+                    <element signature="e#0#47#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/constants/App.js">
+            <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SixthSection.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+                <state relative-caret-position="264">
+                  <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="29" selection-end-column="82" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/constants/Barbers.js">
+            <entry file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="22">
-                  <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+                <state relative-caret-position="203">
+                  <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -137,7 +144,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/About/About.module.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
+                <state relative-caret-position="1100">
                   <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
                 </state>
               </provider>
@@ -146,7 +153,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2283">
+                <state relative-caret-position="7106">
                   <caret line="323" column="4" selection-start-line="323" selection-start-column="4" selection-end-line="325" selection-end-column="5" />
                 </state>
               </provider>
@@ -155,7 +162,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="467">
+                <state relative-caret-position="2200">
                   <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
                 </state>
               </provider>
@@ -164,7 +171,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Gallery/Gallery.module.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
+                <state relative-caret-position="1342">
                   <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
                 </state>
               </provider>
@@ -185,8 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Layout/Layout.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Hamepage/FourSection.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/SixtSection.js" />
@@ -195,18 +200,15 @@
         <option value="$PROJECT_DIR$/src/constants/Env.js" />
         <option value="$PROJECT_DIR$/src/actions/Env.js" />
         <option value="$PROJECT_DIR$/src/reducers/Env.js" />
-        <option value="$PROJECT_DIR$/src/components/Layout/Footer/index.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/FirstSection.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/FiveSection.js" />
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/index.js" />
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Layout.module.css" />
         <option value="$PROJECT_DIR$/src/components/Barbers/Barbers.module.css" />
         <option value="$PROJECT_DIR$/src/components/Barbers/Barbers.js" />
-        <option value="$PROJECT_DIR$/src/components/Servise/Services.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Header/Menu.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" />
-        <option value="$PROJECT_DIR$/src/components/Contacts/Contacts.js" />
         <option value="$PROJECT_DIR$/src/constants/Gallery.js" />
         <option value="$PROJECT_DIR$/src/reducers/Galerry.js" />
         <option value="$PROJECT_DIR$/src/actions/Gallery.js" />
@@ -214,16 +216,8 @@
         <option value="$PROJECT_DIR$/src/reducers/Gallery.js" />
         <option value="$PROJECT_DIR$/src/components/Gallery/Gallery.js" />
         <option value="$PROJECT_DIR$/src/Svg.js" />
-        <option value="$PROJECT_DIR$/src/components/Layout/Header/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Hamepage/SixthSection.js" />
-        <option value="$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/index.js" />
-        <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Servise/Service.module.css" />
         <option value="$PROJECT_DIR$/src/components/Gallery/Gallery.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -232,10 +226,23 @@
         <option value="$PROJECT_DIR$/src/actions/Barbers.js" />
         <option value="$PROJECT_DIR$/src/reducers/Barbers.js" />
         <option value="$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js" />
-        <option value="$PROJECT_DIR$/src/translations/ru.json" />
-        <option value="$PROJECT_DIR$/src/translations/uk.json" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/SecondSection.js" />
         <option value="$PROJECT_DIR$/src/components/About/About.js" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Header/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Footer/index.js" />
+        <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Hamepage/SixthSection.js" />
+        <option value="$PROJECT_DIR$/src/components/Contacts/Contacts.js" />
+        <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Servise/Service.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Footer/Social.js" />
+        <option value="$PROJECT_DIR$/src/components/Hamepage/FourSection.js" />
+        <option value="$PROJECT_DIR$/src/components/Servise/Services.js" />
+        <option value="$PROJECT_DIR$/src/translations/ru.json" />
+        <option value="$PROJECT_DIR$/src/translations/uk.json" />
       </list>
     </option>
   </component>
@@ -406,7 +413,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/OpenServer/OSPanel/domains/v25" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -480,7 +487,10 @@
       <workItem from="1590681963561" duration="10813000" />
       <workItem from="1590733921927" duration="101000" />
       <workItem from="1590762363291" duration="13063000" />
-      <workItem from="1590823521263" duration="38118000" />
+      <workItem from="1590823521263" duration="38758000" />
+      <workItem from="1590995151531" duration="51000" />
+      <workItem from="1591022471749" duration="619000" />
+      <workItem from="1591113630599" duration="4686000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1590338653322</created>
@@ -643,11 +653,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590916657150</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add translate for about">
+      <created>1590928132164</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590928132164</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140257000" />
+    <option name="totallyTimeSpent" value="146253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -655,9 +672,9 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16257995" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1673774" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" visible="true" weight="0.283857" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" visible="true" weight="0.283857" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" weight="0.20368364" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -701,19 +718,10 @@
     <MESSAGE value="fix adaptive for homepage" />
     <MESSAGE value="fix index html" />
     <MESSAGE value="add adaptive for about" />
-    <option name="LAST_COMMIT_MESSAGE" value="add adaptive for about" />
+    <MESSAGE value="add translate for about" />
+    <option name="LAST_COMMIT_MESSAGE" value="add translate for about" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constants/Env.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -763,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/FourSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="89" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -797,16 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="38" column="74" lean-forward="true" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="90" selection-start-line="20" selection-start-column="90" selection-end-line="20" selection-end-column="90" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -841,16 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Servise/Services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1161">
-          <caret line="10" column="134" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="134" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,90 +893,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SixthSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Info.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Header.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="83" column="23" lean-forward="true" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Gallery/Gallery.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Servise/Service.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="91" selection-start-line="91" selection-end-line="95" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1010,27 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About/About.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2283">
-          <caret line="323" column="4" selection-start-line="323" selection-start-column="4" selection-end-line="325" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1038,10 +916,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/Barbers.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        <state relative-caret-position="528">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SecondSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Barbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/Barbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,67 +973,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Barbers.js">
+    <entry file="file://$PROJECT_DIR$/src/constants/Barbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/Barbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/translations/ru.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="31" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/translations/uk.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SecondSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1123,6 +987,160 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/About/About.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Gallery/Gallery.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7106">
+          <caret line="323" column="4" selection-start-line="323" selection-start-column="4" selection-end-line="325" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="42" column="88" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Header.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="42" column="88" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SixthSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="29" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Servise/Service.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/Footer.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1191">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/Social.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Servise/Services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/FourSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/translations/ru.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/translations/uk.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>

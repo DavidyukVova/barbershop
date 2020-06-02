@@ -5,14 +5,14 @@
 
 .contactsSection {
     background-color: #0a0e0e;
-    padding-top: 181px;
-    padding-bottom: 336px;
+    padding-top: 80px;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .contactsSection .contentBlock {
-    padding-top: 93px;
+    padding-top: 55px;
 }
 
 .contactsSection .infoBlock {
