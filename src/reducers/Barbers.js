@@ -9,6 +9,9 @@ const initialState = {
             rank: "Top barber",
             image: "/images/barbers/barber1.jpg",
             imageFull: "/images/barbers/barberFull1.jpg",
+            imagePageTop1: "/images/barbers/barberPageTop1.jpg",
+            imagePageMiddle1: "/images/barbers/barberPageMiddle1.jpg",
+            imagePageBottom1: "/images/barbers/barberPageBottom1.jpg",
         },
         {
             id: 2,

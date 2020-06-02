@@ -50,6 +50,11 @@
     filter: grayscale(0%);
 }
 
+.barberPageWrap {
+    padding-top: 205px;
+    padding-bottom: 64px;
+}
+
 @media (max-width: 991px) {
     .item img {
         max-height: 100%;

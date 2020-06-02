@@ -43,7 +43,7 @@ const FourSection = () => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Haircut + Beard')}
+                                    {i18n.t('Haircut + beard')}
                                 </p>
                                 <label>
                                     700{i18n.t('usd')}
@@ -72,7 +72,7 @@ const FourSection = () => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Haircut + Beard')}
+                                    {i18n.t('Haircut + beard')}
                                 </p>
                                 <label>
                                     500{i18n.t('usd')}
