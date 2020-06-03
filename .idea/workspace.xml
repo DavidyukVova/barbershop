@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a1e54de-b719-444c-a2e0-5de1af79816a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Barbers/Barbers.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Barbers/Barbers.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/uk.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="81" column="111" selection-start-line="81" selection-start-column="111" selection-end-line="81" selection-end-column="111" />
+                <state relative-caret-position="1320">
+                  <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -124,8 +121,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barbers.module.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+                <state relative-caret-position="415">
+                  <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -133,8 +130,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+                <state relative-caret-position="176">
+                  <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="124" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -212,8 +209,8 @@
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" />
         <option value="$PROJECT_DIR$/src/translations/uk.json" />
         <option value="$PROJECT_DIR$/src/translations/ru.json" />
-        <option value="$PROJECT_DIR$/src/components/Barbers/Barbers.module.css" />
         <option value="$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js" />
+        <option value="$PROJECT_DIR$/src/components/Barbers/Barbers.module.css" />
       </list>
     </option>
   </component>
@@ -463,7 +460,7 @@
       <workItem from="1591022471749" duration="619000" />
       <workItem from="1591113630599" duration="9865000" />
       <workItem from="1591163411595" duration="155000" />
-      <workItem from="1591197224339" duration="1340000" />
+      <workItem from="1591197224339" duration="2293000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1590338653322</created>
@@ -654,11 +651,25 @@
       <option name="project" value="LOCAL" />
       <updated>1591123248112</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add barber page styles">
+      <created>1591198690830</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591198690830</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix image style in barber page">
+      <created>1591199319513</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591199319513</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152927000" />
+    <option name="totallyTimeSpent" value="153880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -691,8 +702,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add files server" />
-    <MESSAGE value="add files" />
     <MESSAGE value="add barbers" />
     <MESSAGE value="add four section" />
     <MESSAGE value="add background for scroll header" />
@@ -716,7 +725,9 @@
     <MESSAGE value="add price list and fix all pages padding" />
     <MESSAGE value="add social link" />
     <MESSAGE value="add barber data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add barber data" />
+    <MESSAGE value="add barber page styles" />
+    <MESSAGE value="fix image style in barber page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix image style in barber page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Hamepage/FiveSection.js">
@@ -1072,13 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Gallery/Gallery.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
@@ -1127,20 +1131,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barbers.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+        <state relative-caret-position="176">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="124" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="81" column="111" selection-start-line="81" selection-start-column="111" selection-end-line="81" selection-end-column="111" />
+        <state relative-caret-position="1320">
+          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barbers.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -89,6 +89,10 @@
     left: -15px;
 }
 
+.barberPageWrap img {
+    width: 100%;
+}
+
 .barberPageWrap .topBlock {
     text-align: center;
 }
