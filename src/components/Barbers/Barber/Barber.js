@@ -24,7 +24,7 @@ const Barber = ({match, barbers}) => {
                                         </div>
                                     </Col>
                                     <Col md={6}>
-                                        <div>
+                                        <div className={classes.topBlock}>
                                             <h6>
                                                 {i18n.t(`${barber.name}`)}
                                             </h6>
@@ -32,7 +32,7 @@ const Barber = ({match, barbers}) => {
                                                 {i18n.t(`${barber.rank}`)}
                                             </p>
                                         </div>
-                                        <div>
+                                        <div className={classes.description}>
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae cum ducimus enim neque, qui repellat sed. A accusantium alias dolorem facere fugit ipsam itaque minus, obcaecati quasi voluptatibus. Doloremque impedit laboriosam maiores molestiae porro quis unde! Aliquid cum cupiditate dolorem dolores ipsa mollitia nesciunt rerum suscipit. Architecto consectetur cupiditate doloremque ea eaque ex excepturi, hic, impedit laborum libero natus nemo perspiciatis praesentium, sint ullam. Accusamus atque aut consectetur corporis cumque deleniti doloribus excepturi harum impedit labore laborum laudantium, libero necessitatibus nihil nobis omnis possimus provident quo repellat similique sunt tempore vel veniam. Cum fugit, quos! Dolor earum quisquam veniam.
                                             </p>
@@ -42,8 +42,8 @@ const Barber = ({match, barbers}) => {
                             ))
                     }
                     </div>
-                    <h3>
-                        {i18n.t('Barber Revelations')}
+                    <h3 className={classes.title}>
+                        {i18n.t('Barber revelations')}
                     </h3>
                     <div>
                     {
@@ -52,7 +52,7 @@ const Barber = ({match, barbers}) => {
                             .map((barber, index) => (
                                 <Row key={`middle${index}`}>
                                     <Col md={6}>
-                                        <div>
+                                        <div className={classes.description}>
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae cum ducimus enim neque, qui repellat sed. A accusantium alias dolorem facere fugit ipsam itaque minus, obcaecati quasi voluptatibus. Doloremque impedit laboriosam maiores molestiae porro quis unde! Aliquid cum cupiditate dolorem dolores ipsa mollitia nesciunt rerum suscipit. Architecto consectetur cupiditate doloremque ea eaque ex excepturi, hic, impedit laborum libero natus nemo perspiciatis praesentium, sint ullam. Accusamus atque aut consectetur corporis cumque deleniti doloribus excepturi harum impedit labore laborum laudantium, libero necessitatibus nihil nobis omnis possimus provident quo repellat similique sunt tempore vel veniam. Cum fugit, quos! Dolor earum quisquam veniam.
                                             </p>
@@ -67,7 +67,7 @@ const Barber = ({match, barbers}) => {
                             ))
                     }
                     </div>
-                    <div>
+                    <div className={classes.middleBlock}>
                         {
                             barbers.barbers
                                 .filter((barber, index) => (parseInt(barber.id) === parseInt(id)))
@@ -79,7 +79,7 @@ const Barber = ({match, barbers}) => {
                                             </div>
                                         </Col>
                                         <Col xs={12}>
-                                            <div>
+                                            <div className={`${classes.description} ${classes.bottomDescription}`}>
                                                 <p>
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae cum ducimus enim neque, qui repellat sed. A accusantium alias dolorem facere fugit ipsam itaque minus, obcaecati quasi voluptatibus. Doloremque impedit laboriosam maiores molestiae porro quis unde! Aliquid cum cupiditate dolorem dolores ipsa mollitia nesciunt rerum suscipit. Architecto consectetur cupiditate doloremque ea eaque ex excepturi, hic, impedit laborum libero natus nemo perspiciatis praesentium, sint ullam. Accusamus atque aut consectetur corporis cumque deleniti doloribus excepturi harum impedit labore laborum laudantium, libero necessitatibus nihil nobis omnis possimus provident quo repellat similique sunt tempore vel veniam. Cum fugit, quos! Dolor earum quisquam veniam.
                                                 </p>

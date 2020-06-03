@@ -55,6 +55,49 @@
     padding-bottom: 64px;
 }
 
+.barberPageWrap .topBlock {
+    text-align: center;
+}
+
+.barberPageWrap .topBlock h6 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+.barberPageWrap .topBlock p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #BCAFAF;
+}
+
+.barberPageWrap .description p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #CAC9C6;
+}
+
+.barberPageWrap .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 76px auto;
+}
+
+.barberPageWrap .middleBlock {
+    margin: 109px 0 100px 0;
+}
+
+.barberPageWrap .bottomDescription {
+    margin-top: 89px;
+}
+
 @media (max-width: 991px) {
     .item img {
         max-height: 100%;
