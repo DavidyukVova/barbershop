@@ -1,6 +1,7 @@
 .layoutWrap {
     position: relative;
     background-color: #0a0e0e;
+    min-height: 100vh;
 }
 
 .main {

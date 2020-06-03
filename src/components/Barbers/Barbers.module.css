@@ -59,6 +59,10 @@
     position: relative;
 }
 
+.barberPageWrap .imageTopWrap img {
+    max-width: 473px;
+}
+
 .barberPageWrap .imageTopWrap:before {
     content: '';
     border: 3px solid #FFE600;
@@ -155,6 +159,10 @@
         margin: 35px auto;
         font-size: 34px;
         line-height: 38px;
+    }
+
+    .barberPageWrap .imageTopWrap img {
+        max-width: 100%;
     }
 
     .barberPageWrap .bottomBlock {

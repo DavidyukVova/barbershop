@@ -34,7 +34,18 @@ const Barber = ({match, barbers}) => {
                                         </div>
                                         <div className={classes.description}>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae cum ducimus enim neque, qui repellat sed. A accusantium alias dolorem facere fugit ipsam itaque minus, obcaecati quasi voluptatibus. Doloremque impedit laboriosam maiores molestiae porro quis unde! Aliquid cum cupiditate dolorem dolores ipsa mollitia nesciunt rerum suscipit. Architecto consectetur cupiditate doloremque ea eaque ex excepturi, hic, impedit laborum libero natus nemo perspiciatis praesentium, sint ullam. Accusamus atque aut consectetur corporis cumque deleniti doloribus excepturi harum impedit labore laborum laudantium, libero necessitatibus nihil nobis omnis possimus provident quo repellat similique sunt tempore vel veniam. Cum fugit, quos! Dolor earum quisquam veniam.
+                                                Я родился и вырос в столице Туркменистана, городе Ашхабад. Отец уже пятнадцать лет живет в Харькове, а мать — на родине.
+
+                                                Мне всегда нравилось парикмахерское искусство, несмотря на то, что уже два года я получаю высшее образование по специальности «Таможенное и биржевое дело» в Национальном Авиационном Университете в Киеве.
+                                                Впечатляет, насколько разные тут люди. У нас же все очень похожи. И речь не о внешности, скорее об индивидуальности и душевном богатстве людей вокруг меня.
+                                                Везде есть плохие и хорошие люди, это не зависит от пола и менталитета, но мне чаще везет с окружением.
+
+
+                                                Какое-то время было сложно привыкнуть к климату, но мне больше нравится его разнообразие и непостоянство, жара иногда туманит мысли и надоедает.
+
+
+                                                Психологически трудно быть зависимым от родителей и их обеспечения, поэтому я практически сразу начал путь парикмахера с «Экспресс-стрижек».
+
                                             </p>
                                         </div>
                                     </Col>
