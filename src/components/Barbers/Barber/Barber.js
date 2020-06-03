@@ -19,7 +19,7 @@ const Barber = ({match, barbers}) => {
                             .map((barber, index) => (
                                 <Row key={`top${index}`}>
                                     <Col md={6}>
-                                        <div>
+                                        <div className={classes.imageTopWrap}>
                                             <img src={process.env.PUBLIC_URL+barber.imagePageTop1} alt={barber.name}/>
                                         </div>
                                     </Col>
@@ -74,7 +74,7 @@ const Barber = ({match, barbers}) => {
                                 .map((barber, index) => (
                                     <Row key={`middle${index}`}>
                                         <Col xs={12}>
-                                            <div>
+                                            <div className={classes.imageBottomWrap}>
                                                 <img src={process.env.PUBLIC_URL+barber.imagePageBottom1} alt={barber.name}/>
                                             </div>
                                         </Col>

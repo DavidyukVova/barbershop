@@ -55,6 +55,40 @@
     padding-bottom: 64px;
 }
 
+.barberPageWrap .imageTopWrap {
+    position: relative;
+}
+
+.barberPageWrap .imageTopWrap:before {
+    content: '';
+    border: 3px solid #FFE600;
+    width: 90%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+
+.barberPageWrap .imageBottomWrap {
+    position: relative;
+}
+
+.barberPageWrap .imageBottomWrap img {
+    position: relative;
+}
+
+.barberPageWrap .imageBottomWrap:before {
+    content: '';
+    border: 3px solid #FFE600;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: -15px;
+}
+
 .barberPageWrap .topBlock {
     text-align: center;
 }
