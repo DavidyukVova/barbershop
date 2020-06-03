@@ -128,7 +128,7 @@
     margin: 76px auto;
 }
 
-.barberPageWrap .middleBlock {
+.barberPageWrap .bottomBlock {
     margin: 109px 0 100px 0;
 }
 
@@ -137,7 +137,41 @@
 }
 
 @media (max-width: 991px) {
+    .barberPageWrap {
+        padding-top: 160px;
+    }
+
     .item img {
         max-height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .barberPageWrap .topBlock {
+        margin-top: 40px;
+    }
+
+    .barberPageWrap .title {
+        margin: 35px auto;
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .barberPageWrap .bottomBlock {
+        margin: 40px 0 0 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .barberPageWrap .imageTopWrap:before {
+        display: none;
+    }
+
+    .barberPageWrap .imageBottomWrap:before {
+        display: none;
+    }
+
+    .barberPageWrap .bottomDescription {
+        margin-top: 40px;
     }
 }

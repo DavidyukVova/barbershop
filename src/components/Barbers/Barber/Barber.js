@@ -67,7 +67,7 @@ const Barber = ({match, barbers}) => {
                             ))
                     }
                     </div>
-                    <div className={classes.middleBlock}>
+                    <div className={classes.bottomBlock}>
                         {
                             barbers.barbers
                                 .filter((barber, index) => (parseInt(barber.id) === parseInt(id)))

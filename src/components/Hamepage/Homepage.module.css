@@ -372,7 +372,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .firstTitle {
         font-size: 38px;
         line-height: 46px;
