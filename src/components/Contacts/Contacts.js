@@ -37,11 +37,11 @@ const Contacts = ({env}) => {
                                         </div>
                                         <div className={classes.item}>
                                             <Svg.PhoneIco/>
-                                            <p>{env.phone}</p>
+                                            <p><a href={`tel:${env.phone}`}>{env.phone}</a></p>
                                         </div>
                                         <div className={classes.item}>
                                             <Svg.MailIco/>
-                                            <p>{env.email}</p>
+                                            <p><a href={`mailto:${env.email}`}>{env.email}</a></p>
                                         </div>
                                     </div>
                                 </Col>

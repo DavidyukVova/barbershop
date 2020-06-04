@@ -159,6 +159,11 @@
 
 .barbersWrap .item {
     position: relative;
+    transition: all 0.15s linear;
+}
+
+.barbersWrap .item:hover {
+    transform: scale(1.1);
 }
 
 .barbersWrap .item img {
@@ -327,6 +332,11 @@
     margin-bottom: 0;
     letter-spacing: 0.03em;
     color: #ffffff;
+}
+
+.sixthSection .infoBlock .item p a {
+    color: inherit;
+    text-decoration: none;
 }
 
 @media (max-width: 1200px) {

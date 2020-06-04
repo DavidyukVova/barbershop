@@ -43,6 +43,11 @@
     color: #ffffff;
 }
 
+.contactsSection .infoBlock .item p a {
+    color: inherit;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .contactsSection {
         padding-top: 40px;
