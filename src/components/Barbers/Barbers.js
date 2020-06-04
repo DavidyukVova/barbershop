@@ -15,8 +15,8 @@ const Barbers = ({barbers}) => {
                 <Row noGutters={true}>
                     {
                         barbers.barbers.map((barber, index) => (
-                            <Col md={12} lg={4}>
-                                <div className={classes.item} key={index}>
+                            <Col md={12} lg={4} key={index}>
+                                <div className={classes.item}>
                                     <Link to={`/${i18n.language}/barber/${barber.id}`}>
                                         <img src={process.env.PUBLIC_URL+barber.imageFull} alt={barber.name}/>
                                         <div className={classes.info}>

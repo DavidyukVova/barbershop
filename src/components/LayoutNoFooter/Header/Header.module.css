@@ -90,6 +90,9 @@
 
 
 @media (max-width: 991px) {
+    .headerWrap {
+        background-color: #26252a !important;
+    }
     .header .logoWrap {
         margin: 0;
     }

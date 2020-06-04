@@ -90,6 +90,9 @@
 
 
 @media (max-width: 991px) {
+    .headerWrap {
+        background-color: #26252a !important;
+    }
     .header .logoWrap {
         margin: 0;
     }
@@ -120,4 +123,8 @@
     .infoBlock .item {
         margin: 20px 0;
     }
+}
+
+@media (max-width: 767px) {
+
 }

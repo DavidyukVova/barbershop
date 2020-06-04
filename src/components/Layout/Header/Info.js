@@ -14,13 +14,13 @@ const Info = () => {
                     {i18n.t('Contacts')}
                 </NavLink>
             </div>
-            <div className={classes.item}>
+            <div className={`${classes.item} d-none d-lg-block`}>
                 <Button size={"sm"} variant="outline-primary">{i18n.t('Entry')}</Button>
             </div>
-            <div className={classes.item}>
+            <div className={`${classes.item} d-block d-md-none d-lg-block`}>
                 <LangDropdown/>
             </div>
-            <div className={classes.item}>
+            <div className={`${classes.item} d-none d-lg-block`}>
                 <Social/>
             </div>
         </div>
