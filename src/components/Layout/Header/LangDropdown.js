@@ -20,7 +20,7 @@ const LangDropdown = ({history, location}) => {
 
 
     const lngTitles = {
-        en: 'En',
+        // en: 'En',
         uk: 'Укр',
         ru: 'Рус',
     };
