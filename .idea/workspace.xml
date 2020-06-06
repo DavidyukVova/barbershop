@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0a1e54de-b719-444c-a2e0-5de1af79816a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/Barbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/Barbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/LangDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/LangDropdown.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +21,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6414268">
+    <splitter split-orientation="horizontal" split-proportion="0.5204413">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Hamepage/SixthSection.js">
+            <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/LangDropdown.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="770">
-                  <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="47" selection-end-column="42" />
+                <state relative-caret-position="203">
+                  <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -30,14 +36,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/LangDropdown.js">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="880">
-                  <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="264">
+                  <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/manifest.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -45,10 +57,22 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="83" column="84" selection-start-line="83" selection-start-column="84" selection-end-line="83" selection-end-column="84" />
+                <state relative-caret-position="330">
+                  <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/i18n.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#82#124#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -75,23 +99,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/translations/uk.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="43" column="4280" lean-forward="true" selection-start-line="43" selection-start-column="4280" selection-end-line="43" selection-end-column="4280" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="428">
+                  <caret line="43" column="4280" selection-start-line="43" selection-start-column="4280" selection-end-line="43" selection-end-column="4280" />
                 </state>
               </provider>
             </entry>
@@ -99,8 +111,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="726">
-                  <caret line="38" column="74" selection-end-line="45" selection-end-column="40" />
+                <state relative-caret-position="286">
+                  <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="44" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -112,6 +124,15 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/About/About.module.css">
               <provider selected="true" editor-type-id="text-editor">
@@ -130,11 +151,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="528">
-                  <caret line="346" column="19" lean-forward="true" selection-start-line="346" selection-start-column="19" selection-end-line="346" selection-end-column="19" />
+                  <caret line="346" column="19" selection-start-line="346" selection-start-column="19" selection-end-line="346" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -142,8 +163,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Header.module.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2156">
-                  <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+                <state relative-caret-position="349">
+                  <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -176,9 +197,9 @@
       <find>redi</find>
       <find>redirect</find>
       <find>:)</find>
-      <find>сВстретів</find>
-      <find>:</find>
       <find>сВстретив</find>
+      <find>:</find>
+      <find>сВстретів</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,22 +208,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/actions/Env.js" />
         <option value="$PROJECT_DIR$/src/reducers/Env.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/FiveSection.js" />
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/index.js" />
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Layout.module.css" />
         <option value="$PROJECT_DIR$/src/components/Layout/Header/Menu.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/ThirdSection.js" />
-        <option value="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" />
         <option value="$PROJECT_DIR$/src/constants/Gallery.js" />
         <option value="$PROJECT_DIR$/src/reducers/Galerry.js" />
         <option value="$PROJECT_DIR$/src/actions/Gallery.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/Gallery.js" />
         <option value="$PROJECT_DIR$/src/Svg.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/src/components/About/About.module.css" />
         <option value="$PROJECT_DIR$/src/constants/Barbers.js" />
         <option value="$PROJECT_DIR$/src/actions/Barbers.js" />
@@ -218,17 +235,13 @@
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Social.js" />
         <option value="$PROJECT_DIR$/src/components/Servise/Services.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/FourSection.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/Layout/Layout.module.css" />
         <option value="$PROJECT_DIR$/src/components/Gallery/Gallery.module.css" />
         <option value="$PROJECT_DIR$/src/components/Barbers/Barbers.module.css" />
         <option value="$PROJECT_DIR$/src/components/Gallery/Gallery.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/FirstSection.js" />
-        <option value="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" />
         <option value="$PROJECT_DIR$/src/components/Layout/Header/Info.js" />
-        <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" />
         <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Info.js" />
-        <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/LangDropdown.js" />
         <option value="$PROJECT_DIR$/src/components/Barbers/Barbers.js" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css" />
         <option value="$PROJECT_DIR$/src/components/Hamepage/SixthSection.js" />
@@ -238,6 +251,14 @@
         <option value="$PROJECT_DIR$/src/reducers/Barbers.js" />
         <option value="$PROJECT_DIR$/src/translations/ru.json" />
         <option value="$PROJECT_DIR$/src/translations/uk.json" />
+        <option value="$PROJECT_DIR$/src/i18n.js" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" />
+        <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js" />
+        <option value="$PROJECT_DIR$/src/components/LayoutNoFooter/Header/LangDropdown.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/public/manifest.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -263,63 +284,18 @@
             <path>
               <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
               <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="2.3e0af6c0.chunk.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
               <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
               <item name="barbershop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="About" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
@@ -341,34 +317,6 @@
               <item name="barbershop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Contacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Hamepage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="LayoutNoFooter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,31 +326,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="LayoutNoFooter" type="462c0819:PsiDirectoryNode" />
               <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Servise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="barbershop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="barbershop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -497,7 +420,7 @@
       <workItem from="1591284740177" duration="4852000" />
       <workItem from="1591337824106" duration="465000" />
       <workItem from="1591368677821" duration="1214000" />
-      <workItem from="1591427036518" duration="10910000" />
+      <workItem from="1591427036518" duration="15843000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1590338653322</created>
@@ -758,11 +681,25 @@
       <option name="project" value="LOCAL" />
       <updated>1591300829471</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add photo and text for barber page">
+      <created>1591441338614</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1591441338614</updated>
+    </task>
+    <task id="LOCAL-00039" summary="comment english lang">
+      <created>1591442230169</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1591442230169</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184396000" />
+    <option name="totallyTimeSpent" value="189329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -770,9 +707,9 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" visible="true" weight="0.283857" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" visible="true" weight="0.283857" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" weight="0.20368364" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -795,8 +732,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add contacts page data" />
-    <MESSAGE value="fix errors" />
     <MESSAGE value="add tabs for gallery" />
     <MESSAGE value="add photo for gallery" />
     <MESSAGE value="add adaptive" />
@@ -820,29 +755,11 @@
     <MESSAGE value="fix video for homepage" />
     <MESSAGE value="add mobile adaptation and fix errors" />
     <MESSAGE value="add phone ad email link" />
-    <option name="LAST_COMMIT_MESSAGE" value="add phone ad email link" />
+    <MESSAGE value="add photo and text for barber page" />
+    <MESSAGE value="comment english lang" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment english lang" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/actions/Gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="46" selection-end-line="15" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/Gallery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -908,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -961,20 +871,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Layout/Footer/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1037,13 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1131,30 +1020,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/LangDropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="38" column="74" selection-end-line="45" selection-end-column="40" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1172,13 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3608">
           <caret line="164" column="23" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Header.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
-          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1216,16 +1078,23 @@
     <entry file="file://$PROJECT_DIR$/src/components/Hamepage/Homepage.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="346" column="19" lean-forward="true" selection-start-line="346" selection-start-column="19" selection-end-line="346" selection-end-column="19" />
+          <caret line="346" column="19" selection-start-line="346" selection-start-column="19" selection-end-line="346" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js">
+    <entry file="file://$PROJECT_DIR$/src/translations/ru.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="83" column="84" selection-start-line="83" selection-start-column="84" selection-end-line="83" selection-end-column="84" />
+        <state relative-caret-position="494">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="4340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/i18n.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#82#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1240,17 +1109,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/translations/ru.json">
+    <entry file="file://$PROJECT_DIR$/src/translations/uk.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="4340" />
+        <state relative-caret-position="428">
+          <caret line="43" column="4280" selection-start-line="43" selection-start-column="4280" selection-end-line="43" selection-end-column="4280" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/translations/uk.json">
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/Header.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="43" column="4280" lean-forward="true" selection-start-line="43" selection-start-column="4280" selection-end-line="43" selection-end-column="4280" />
+        <state relative-caret-position="349">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Header/LangDropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ivankiv/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/Header.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Barbers/Barber/Barber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LayoutNoFooter/Header/LangDropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
         </state>
       </provider>
     </entry>

@@ -47,7 +47,7 @@ p {
 .dropdown-menu {
     background-color: inherit;
     min-width: fit-content;
-    border: 1px solid #ffffff;
+    border: none;
 }
 
 .dropdown-toggle::after {

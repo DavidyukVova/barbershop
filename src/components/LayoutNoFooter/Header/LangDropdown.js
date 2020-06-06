@@ -21,8 +21,8 @@ const LangDropdown = ({history, location}) => {
 
     const lngTitles = {
         // en: 'En',
-        uk: 'Укр',
-        ru: 'Рус',
+        uk: <img src={`${process.env.PUBLIC_URL}/images/uk.png`} alt="uk"/>,
+        ru: <img src={`${process.env.PUBLIC_URL}/images/ru.png`} alt="ru"/>,
     };
 
     return (
@@ -31,6 +31,7 @@ const LangDropdown = ({history, location}) => {
                 <span key={index}>{i18n.language === lng ? lngTitles.hasOwnProperty(lng)?lngTitles[lng]:lng : ''}</span>
             ))}>
                 {languages.map( (lng, index) => (
+                    i18n.language !== lng &&
                     <Dropdown.Item
                         as="button"
                         onClick={e => (changeLanguage(lng))}
