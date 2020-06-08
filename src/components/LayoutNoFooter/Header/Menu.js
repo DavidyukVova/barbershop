@@ -9,6 +9,9 @@ const Menu = () => {
             <NavLink to={`/${i18n.language}/`} className={classes.menuLink} activeClassName={classes.active}>
                 {i18n.t('Main')}
             </NavLink>
+            <NavLink to={`/${i18n.language}/about`} className={classes.menuLink} activeClassName={classes.active}>
+                {i18n.t('About us')}
+            </NavLink>
             <NavLink to={`/${i18n.language}/barbers`} className={classes.menuLink} activeClassName={classes.active}>
                 {i18n.t('Barbers')}
             </NavLink>
@@ -17,9 +20,6 @@ const Menu = () => {
             </NavLink>
             <NavLink to={`/${i18n.language}/gallery`} className={classes.menuLink} activeClassName={classes.active}>
                 {i18n.t('Gallery')}
-            </NavLink>
-            <NavLink to={`/${i18n.language}/about`} className={classes.menuLink} activeClassName={classes.active}>
-                {i18n.t('About us')}
             </NavLink>
         </nav>
     )

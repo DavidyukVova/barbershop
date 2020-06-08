@@ -6,25 +6,13 @@
 }
 
 .title {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 48px;
     line-height: 62px;
-    text-transform: uppercase;
     color: #ffffff;
     position: relative;
     width: fit-content;
     margin: 0 auto;
-}
-
-.title:before {
-    content: '';
-    width: 100%;
-    height: 3px;
-    background-color: #FFE600;
-    display: block;
-    position: absolute;
-    bottom: 10px;
-    left: 30%;
 }
 
 .subTitle {
@@ -334,6 +322,10 @@
     color: #ffffff;
 }
 
+.buttonNoBorder  {
+    border: none;
+}
+
 .sixthSection .infoBlock .item p a {
     color: inherit;
     text-decoration: none;
@@ -342,10 +334,6 @@
 @media (max-width: 1200px) {
     .firstSection {
         height: 100vh;
-    }
-
-    .title:before {
-        left: 10%;
     }
     .secondSectionPhoto {
         margin: 20px 0 0 20px;
@@ -359,9 +347,6 @@
 }
 
 @media (max-width: 991px) {
-    .title:before {
-        left: 0;
-    }
     .priceList {
         justify-content: center;
     }

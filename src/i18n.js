@@ -3,7 +3,7 @@ import i18n from "i18next";
 import Backend from 'i18next-xhr-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-// import translationEN from './translations/en';
+import translationEN from './translations/en';
 import translationRU from './translations/ru';
 import translationUK from './translations/uk';
 
@@ -14,9 +14,9 @@ import moment from "moment";
 
 // the translations
 const resources = {
-    // en:{
-    //     translation: translationEN
-    // },
+    en:{
+        translation: translationEN
+    },
     uk: {
         translation: translationUK
     },
@@ -25,7 +25,7 @@ const resources = {
     }
 };
 
-export const languages = ['ru', 'uk'];
+export const languages = ['en','ru', 'uk'];
 
 i18n
 //    .use(reactI18nextModule)

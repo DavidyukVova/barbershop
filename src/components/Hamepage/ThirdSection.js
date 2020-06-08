@@ -51,7 +51,7 @@ const ThirdSection = ({barbers, history}) => {
                         <Col xs={12}>
                             <Button
                                 size={"lg"}
-                                className={classes.centeredButton}
+                                className={`${classes.centeredButton} ${classes.buttonNoBorder}`}
                                 variant="outline-secondary"
                                 onClick={e => (history.push(`/${i18n.language}/barbers`))}
                             >

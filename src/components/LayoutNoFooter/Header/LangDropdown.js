@@ -20,7 +20,7 @@ const LangDropdown = ({history, location}) => {
 
 
     const lngTitles = {
-        // en: 'En',
+        en: <img src={`${process.env.PUBLIC_URL}/images/en.png`} alt="en"/>,
         uk: <img src={`${process.env.PUBLIC_URL}/images/uk.png`} alt="uk"/>,
         ru: <img src={`${process.env.PUBLIC_URL}/images/ru.png`} alt="ru"/>,
     };
