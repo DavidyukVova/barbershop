@@ -15,7 +15,9 @@ const Info = () => {
                 </NavLink>
             </div>
             <div className={`${classes.item} d-none d-lg-block`}>
-                <Button size={"sm"} variant="outline-primary">{i18n.t('Entry')}</Button>
+                <a href="https://n332210.yclients.com/">
+                    <Button size={"sm"} variant="outline-primary">{i18n.t('Entry')}</Button>
+                </a>
             </div>
             <div className={`${classes.item} d-block d-md-none d-lg-block`}>
                 <LangDropdown/>

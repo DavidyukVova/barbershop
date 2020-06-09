@@ -10,12 +10,15 @@ const Info = () => {
     return (
         <div className={classes.infoBlock}>
             <div className={classes.item}>
-                <NavLink to={`/${i18n.language}/contacts`} className={classes.menuLink} activeClassName={classes.active}>
+                <NavLink to={`/${i18n.language}/contacts`} className={classes.menuLink}
+                         activeClassName={classes.active}>
                     {i18n.t('Contacts')}
                 </NavLink>
             </div>
             <div className={`${classes.item} d-none d-lg-block`}>
-                <Button size={"sm"} variant="outline-primary">{i18n.t('Entry')}</Button>
+                <a href="https://n332210.yclients.com/">
+                    <Button size={"sm"} variant="outline-primary">{i18n.t('Entry')}</Button>
+                </a>
             </div>
             <div className={`${classes.item} d-block d-md-none d-lg-block`}>
                 <LangDropdown/>
@@ -24,7 +27,7 @@ const Info = () => {
                 <Social/>
             </div>
         </div>
-    )
+)
 };
 
 export default Info;

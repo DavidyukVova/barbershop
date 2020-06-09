@@ -1,7 +1,7 @@
 import * as EnvConstants from '../constants/Env';
 
 const initialState = {
-    schedule: ["10:00 - 22:00"],
+    schedule: ["10:00 - 21:00"],
     phone: ["+38 (050) 666-06-33"],
     email: ["carteldruzhbynarodiv@gmail.com"],
 };
