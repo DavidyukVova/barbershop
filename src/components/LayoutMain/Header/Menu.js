@@ -6,7 +6,7 @@ import i18n from '../../../i18n';
 const Menu = () => {
     return (
         <nav className={classes.menu}>
-            <NavLink to={`/${i18n.language}/`} className={classes.menuLink}>
+            <NavLink to={`/${i18n.language}/`} className={classes.menuLink} activeClassName={classes.active}>
                 {i18n.t('Main')}
             </NavLink>
             <NavLink to={`/${i18n.language}/about`} className={classes.menuLink} activeClassName={classes.active}>

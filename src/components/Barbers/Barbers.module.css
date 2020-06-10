@@ -140,6 +140,13 @@
     margin-top: 89px;
 }
 
+.barberBottomImage {
+    width: 100%;
+    max-width: 450px;
+    float: left;
+    margin: 0 30px 15px 0;
+}
+
 @media (max-width: 991px) {
     .barberPageWrap {
         padding-top: 160px;
@@ -147,6 +154,9 @@
 
     .item img {
         max-height: 100%;
+    }
+    .barberBottomImage {
+        max-width: 350px;
     }
 }
 
@@ -167,6 +177,13 @@
 
     .barberPageWrap .bottomBlock {
         margin: 40px 0 0 0;
+    }
+
+    .barberBottomImage {
+        float: none;
+        margin: 20px 0;
+        display: block;
+        max-width: 100%;
     }
 }
 

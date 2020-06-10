@@ -129,4 +129,9 @@
     .infoBlock .item {
         margin: 20px 0;
     }
+
+    .langButtonWrap button img {
+        width: 100%;
+        max-width: 30px !important;
+    }
 }

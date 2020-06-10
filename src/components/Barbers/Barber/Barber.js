@@ -81,6 +81,7 @@ const Barber = ({match, barbers}) => {
                                         <Col xs={12}>
                                             <div className={`${classes.description} ${classes.bottomDescription}`}>
                                                 <p>
+                                                    <img className={classes.barberBottomImage} src={process.env.PUBLIC_URL+barber.image} alt={barber.name}/>
                                                     {i18n.t(`${barber.textPageBottom}`)}
                                                 </p>
                                             </div>
