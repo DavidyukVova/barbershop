@@ -12,15 +12,17 @@ const Contacts = ({env}) => {
     document.title = `Cartel Barbershop - ${i18n.t('Contacts')}`;
 
     const center = {lat: 50.417569, lng: 30.546471 };
-    const zoom = 12;
+    const zoom = 15;
 
     const Marker = (props: any) => {
-        const { color, name } = props;
+        const { name } = props;
         return (
             <div className="marker"
-                 style={{ backgroundColor: color, cursor: 'pointer'}}
+                 style={{ cursor: 'pointer'}}
                  title={name}
-            />
+            >
+                <img src={`${process.env.PUBLIC_URL}/images/icon-map.png`} alt={name}/>
+            </div>
         );
     };
 
