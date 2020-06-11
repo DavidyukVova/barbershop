@@ -315,6 +315,14 @@
 
 .buttonNoBorder  {
     border: none;
+    background: inherit;
+    color: #FFE600;
+    box-shadow: none;
+}
+
+.buttonNoBorder:hover {
+    background: inherit;
+    color: #FFE600;
 }
 
 .sixthSection .infoBlock .item p a {

@@ -16,7 +16,8 @@ const FirstSection = () => {
                         <Button
                             size={"lg"}
                             className={classes.centeredButton}
-                            variant="outline-secondary">
+                            variant="outline-secondary"
+                        >
                             {i18n.t('Entry')}
                         </Button>
                     </a>

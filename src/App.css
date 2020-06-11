@@ -62,17 +62,25 @@ p {
 .dropdown-item:hover {
     color: #FFE600;
     background-color: inherit;
+    outline: none;
 }
 
 .btn-outline-secondary {
-    color: #FFE600;
+    color: #383838;
     border-color: #FFE600;
+    background-color: #FFE600;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .btn-outline-secondary:hover {
-    color: #FFE600;
-    background-color: rgba(236, 235, 235, 0.4);
-    border-color: rgba(236, 235, 235, 0.4);
+    color: #0A0E0E;
+    background-color: #CCB804;
+    border-color: #CCB804;
+    box-shadow: none;
 }
 
 .btn-group-lg>.btn, .btn-lg {

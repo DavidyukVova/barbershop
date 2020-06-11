@@ -17,7 +17,7 @@ const Info = () => {
             </div>
             <div className={`${classes.item} d-none d-lg-block`}>
                 <a href="https://n332210.yclients.com/">
-                    <Button size={"sm"} variant="outline-primary">{i18n.t('Entry')}</Button>
+                    <Button size={"sm"} variant="outline-secondary">{i18n.t('Entry')}</Button>
                 </a>
             </div>
             <div className={`${classes.item} d-block d-md-none d-lg-block`}>
