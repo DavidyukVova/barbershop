@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a025e335751852ac078ce50d582899e6",
+    "revision": "20c110e0307239f20c87a7660d225da3",
     "url": "/barbershop/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbershop/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "28e4b7208c61fca91970",
+    "revision": "13487a4e298808bad410",
     "url": "/barbershop/static/css/main.296e5990.chunk.css"
   },
   {
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbershop/static/js/9.eba04a28.chunk.js"
   },
   {
-    "revision": "28e4b7208c61fca91970",
-    "url": "/barbershop/static/js/main.058d44a8.chunk.js"
+    "revision": "13487a4e298808bad410",
+    "url": "/barbershop/static/js/main.20bd093b.chunk.js"
   },
   {
     "revision": "80accd32daa3b0eb7482",
