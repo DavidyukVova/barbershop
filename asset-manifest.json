@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/barbershop/static/css/main.cf342fb1.chunk.css",
-    "main.js": "/barbershop/static/js/main.85e65d7a.chunk.js",
-    "main.js.map": "/barbershop/static/js/main.85e65d7a.chunk.js.map",
+    "main.js": "/barbershop/static/js/main.d909d410.chunk.js",
+    "main.js.map": "/barbershop/static/js/main.d909d410.chunk.js.map",
     "runtime-main.js": "/barbershop/static/js/runtime-main.b8105ee5.js",
     "runtime-main.js.map": "/barbershop/static/js/runtime-main.b8105ee5.js.map",
     "static/css/2.af3c1da9.chunk.css": "/barbershop/static/css/2.af3c1da9.chunk.css",
@@ -33,7 +33,7 @@
     "static/js/14.8a3737f2.chunk.js": "/barbershop/static/js/14.8a3737f2.chunk.js",
     "static/js/14.8a3737f2.chunk.js.map": "/barbershop/static/js/14.8a3737f2.chunk.js.map",
     "index.html": "/barbershop/index.html",
-    "precache-manifest.5b6ac46801ef0a4e03490458b742e662.js": "/barbershop/precache-manifest.5b6ac46801ef0a4e03490458b742e662.js",
+    "precache-manifest.f1238207968fdc1cde9a57bddc8864ea.js": "/barbershop/precache-manifest.f1238207968fdc1cde9a57bddc8864ea.js",
     "service-worker.js": "/barbershop/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/barbershop/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.cf342fb1.chunk.css.map": "/barbershop/static/css/main.cf342fb1.chunk.css.map",
@@ -44,6 +44,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.8944ca59.chunk.js",
     "static/css/main.cf342fb1.chunk.css",
-    "static/js/main.85e65d7a.chunk.js"
+    "static/js/main.d909d410.chunk.js"
   ]
 }
