@@ -12,7 +12,7 @@ const Contacts = ({env}) => {
     document.title = `Cartel Barbershop - ${i18n.t('Contacts')}`;
 
     const center = {lat: 50.417569, lng: 30.546471 };
-    const zoom = 15;
+    const zoom = 17;
 
     const Marker = (props: any) => {
         const { name } = props;

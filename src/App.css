@@ -115,6 +115,19 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
+.yButtonBackground {
+    background-color: #FFE600 !important;
+    opacity: 1 !important;
+}
+
+.yButtonText {
+    color: #383838 !important;
+}
+
+.yButtonWave {
+    color: #FFE600 !important;
+}
+
 @media (max-width: 991px) {
     .dropdown-menu {
         background-color: #26252a;
