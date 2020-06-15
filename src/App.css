@@ -115,16 +115,16 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
-.yButtonBackground {
+.yButton .yButtonBackground {
     background-color: #FFE600 !important;
     opacity: 1 !important;
 }
 
-.yButtonText {
+.yButton .yButtonText {
     color: #383838 !important;
 }
 
-.yButtonWave {
+.yButton .yButtonWave {
     color: #FFE600 !important;
 }
 

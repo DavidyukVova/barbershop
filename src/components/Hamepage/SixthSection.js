@@ -38,7 +38,7 @@ const SixthSection = ({env}) => {
                     <div className={classes.contentBlock}>
                         <Row>
                             <Col lg={5} md={4}>
-                                <img src={`${process.env.PUBLIC_URL}/images/contactsSection.jpg`} alt="contacts"/>
+                                <img src={`${process.env.PUBLIC_URL}/images/contactsSection.png`} alt="contacts"/>
                             </Col>
                             <Col lg={7} md={8}>
                                 <div>
@@ -60,7 +60,7 @@ const SixthSection = ({env}) => {
                                 <div className={classes.infoBlock}>
                                     <div className={classes.item}>
                                         <Svg.TimeIco/>
-                                        <p>{i18n.t('Schedule')}: {env.schedule}</p>
+                                        <p>{i18n.t('Work hours')}: {env.schedule}</p>
                                     </div>
                                     <div className={classes.item}>
                                         <Svg.PointIco/>

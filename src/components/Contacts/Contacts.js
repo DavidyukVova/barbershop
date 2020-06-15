@@ -34,7 +34,7 @@ const Contacts = ({env}) => {
                         <div className={classes.contentBlock}>
                             <Row>
                                 <Col md={5}>
-                                    <img src={`${process.env.PUBLIC_URL}/images/contactsSection.jpg`} alt="contacts"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/contactsSection.png`} alt="contacts"/>
                                 </Col>
                                 <Col md={7}>
                                     <div>
@@ -56,7 +56,7 @@ const Contacts = ({env}) => {
                                     <div className={classes.infoBlock}>
                                         <div className={classes.item}>
                                             <Svg.TimeIco/>
-                                            <p>{i18n.t('Schedule')}: {env.schedule}</p>
+                                            <p>{i18n.t('Work hours')}: {env.schedule}</p>
                                         </div>
                                         <div className={classes.item}>
                                             <Svg.PointIco/>

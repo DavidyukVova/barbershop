@@ -4,8 +4,6 @@ import i18n from '../../i18n';
 import {Col, Container, Row} from "react-bootstrap";
 
 const FourSection = () => {
-    //TODO - add price list
-    //TODO - add link in bottom block
     return (
         <div className={classes.fourSection}>
             <div className={classes.contentWrap}>
@@ -30,7 +28,7 @@ const FourSection = () => {
                                     {i18n.t('Men\'s haircut')}
                                 </p>
                                 <label>
-                                    500{i18n.t('usd')}
+                                    500{i18n.t('uah')}
                                 </label>
                             </div>
                             <div className={classes.list}>
@@ -38,7 +36,7 @@ const FourSection = () => {
                                     {i18n.t('Beard haircut')}
                                 </p>
                                 <label>
-                                    300{i18n.t('usd')}
+                                    300{i18n.t('uah')}
                                 </label>
                             </div>
                             <div className={classes.list}>
@@ -46,7 +44,7 @@ const FourSection = () => {
                                     {i18n.t('Haircut + beard')}
                                 </p>
                                 <label>
-                                    700{i18n.t('usd')}
+                                    700{i18n.t('uah')}
                                 </label>
                             </div>
                         </div>
@@ -59,7 +57,7 @@ const FourSection = () => {
                                     {i18n.t('Men\'s haircut')}
                                 </p>
                                 <label>
-                                    350{i18n.t('usd')}
+                                    350{i18n.t('uah')}
                                 </label>
                             </div>
                             <div className={classes.list}>
@@ -67,7 +65,7 @@ const FourSection = () => {
                                     {i18n.t('Beard haircut')}
                                 </p>
                                 <label>
-                                    200{i18n.t('usd')}
+                                    200{i18n.t('uah')}
                                 </label>
                             </div>
                             <div className={classes.list}>
@@ -75,7 +73,7 @@ const FourSection = () => {
                                     {i18n.t('Haircut + beard')}
                                 </p>
                                 <label>
-                                    500{i18n.t('usd')}
+                                    500{i18n.t('uah')}
                                 </label>
                             </div>
                         </div>

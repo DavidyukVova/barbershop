@@ -9,7 +9,7 @@ import store from "./store";
 import * as UserActions from './actions/User';
 import * as EnvActions from './actions/Env';
 import * as Api from './api';
-import NotFound from "./components/NotFound";
+import NotFound from "./components/NotFound/NotFound";
 import Barbers from "./components/Barbers/Barbers";
 import Services from "./components/Servise/Services";
 import Gallery from "./components/Gallery/Gallery";

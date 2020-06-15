@@ -21,7 +21,7 @@ const Services = () => {
                                         {i18n.t('Men\'s haircut')}
                                     </p>
                                     <label>
-                                        500{i18n.t('usd')}
+                                        500{i18n.t('uah')}
                                     </label>
                                 </div>
                                 <div className={classes.list}>
@@ -29,7 +29,7 @@ const Services = () => {
                                         {i18n.t('Beard haircut')}
                                     </p>
                                     <label>
-                                        300{i18n.t('usd')}
+                                        300{i18n.t('uah')}
                                     </label>
                                 </div>
                                 <div className={classes.list}>
@@ -37,7 +37,7 @@ const Services = () => {
                                         {i18n.t('Haircut + beard')}
                                     </p>
                                     <label>
-                                        700{i18n.t('usd')}
+                                        700{i18n.t('uah')}
                                     </label>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ const Services = () => {
                                         {i18n.t('Men\'s haircut')}
                                     </p>
                                     <label>
-                                        350{i18n.t('usd')}
+                                        350{i18n.t('uah')}
                                     </label>
                                 </div>
                                 <div className={classes.list}>
@@ -58,7 +58,7 @@ const Services = () => {
                                         {i18n.t('Beard haircut')}
                                     </p>
                                     <label>
-                                        200{i18n.t('usd')}
+                                        200{i18n.t('uah')}
                                     </label>
                                 </div>
                                 <div className={classes.list}>
@@ -66,7 +66,7 @@ const Services = () => {
                                         {i18n.t('Haircut + beard')}
                                     </p>
                                     <label>
-                                        500{i18n.t('usd')}
+                                        500{i18n.t('uah')}
                                     </label>
                                 </div>
                             </div>
