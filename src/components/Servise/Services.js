@@ -1,11 +1,18 @@
 import React from 'react'
 import Layout from "../Layout";
 import classes from "./Service.module.css";
-import {Container} from "react-bootstrap";
+import {Button, Col, Container, Row} from "react-bootstrap";
 import i18n from "../../i18n";
+import {animateScroll as scroll} from "react-scroll/modules";
+import {withRouter} from "react-router";
 
-const Services = () => {
+const Services = ({history}) => {
     document.title = `Cartel Barbershop - ${i18n.t('Services')}`;
+
+    const handleScroll = () => {
+        scroll.scrollToTop()
+    };
+
     return (
         <Layout>
             <div className={classes.serviceSection} style={{backgroundImage: `url("${process.env.PUBLIC_URL}/images/serviceBg.jpg")`}}>
@@ -75,6 +82,18 @@ const Services = () => {
                             <h6>
                                 {i18n.t('Barber Art Training Set')}
                             </h6>
+                            <Row>
+                                <Col xs={12}>
+                                    <Button
+                                        size={"lg"}
+                                        className={`${classes.centeredButton} ${classes.buttonNoBorder}`}
+                                        variant="outline-secondary"
+                                        onClick={e => {history.push(`/${i18n.language}/training`); handleScroll()}}
+                                    >
+                                        {i18n.t('More information')}
+                                    </Button>
+                                </Col>
+                            </Row>
                         </div>
                     </Container>
                 </div>
@@ -82,4 +101,4 @@ const Services = () => {
         </Layout>
     )
 };
-export default Services;
+export default withRouter(Services);

@@ -10,7 +10,7 @@ export const FiveSection = ({history}) => {
 
     const handleScroll = () => {
         scroll.scrollToTop()
-    }
+    };
 
     return (
         <div className={classes.fiveSection}>
@@ -55,7 +55,7 @@ export const FiveSection = ({history}) => {
                                 size={"lg"}
                                 className={`${classes.centeredButton} ${classes.buttonNoBorder}`}
                                 variant="outline-secondary"
-                                onClick={e => (history.push(`/${i18n.language}/gallery`))}
+                                onClick={e => {history.push(`/${i18n.language}/gallery`); handleScroll()}}
                             >
                                 {i18n.t('Go to gallery')}
                             </Button>

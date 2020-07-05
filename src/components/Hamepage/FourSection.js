@@ -1,9 +1,16 @@
 import React from 'react';
 import classes from './Homepage.module.css'
 import i18n from '../../i18n';
-import {Col, Container, Row} from "react-bootstrap";
+import {Button, Col, Container, Row} from "react-bootstrap";
+import {withRouter} from "react-router";
+import {animateScroll as scroll} from "react-scroll/modules";
 
-const FourSection = () => {
+const FourSection = ({history}) => {
+
+    const handleScroll = () => {
+        scroll.scrollToTop()
+    };
+
     return (
         <div className={classes.fourSection}>
             <div className={classes.contentWrap}>
@@ -82,10 +89,22 @@ const FourSection = () => {
                         <h6>
                             {i18n.t('Barber Art Training Set')}
                         </h6>
+                        <Row>
+                            <Col xs={12}>
+                                <Button
+                                    size={"lg"}
+                                    className={`${classes.centeredButton} ${classes.buttonNoBorder}`}
+                                    variant="outline-secondary"
+                                    onClick={e => {history.push(`/${i18n.language}/training`); handleScroll()}}
+                                >
+                                    {i18n.t('More information')}
+                                </Button>
+                            </Col>
+                        </Row>
                     </div>
                 </Container>
             </div>
         </div>
     )
 };
-export default FourSection;
+export default withRouter(FourSection);

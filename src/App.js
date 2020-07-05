@@ -16,6 +16,7 @@ import Gallery from "./components/Gallery/Gallery";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
 import Barber from "./components/Barbers/Barber/Barber";
+import Training from "./components/Training/Training";
 
 class App extends React.Component {
 
@@ -62,6 +63,7 @@ class App extends React.Component {
                         <Route key={lng}>
                             <Switch>
                             <Route exact path={`/${lng}/`} component={Homepage} key="Homepage"/>
+                            <Route exact path={`/${lng}/training`} component={Training} key="Training"/>
                             <Route exact path={`/${lng}/barbers`} component={Barbers} key="barbers"/>
                             <Route exact path={`/${lng}/services`} component={Services} key="services"/>
                             <Route exact path={`/${lng}/gallery`} component={Gallery} key="gallery"/>
