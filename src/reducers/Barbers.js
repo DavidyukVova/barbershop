@@ -31,7 +31,7 @@ const initialState = {
         },
         {
             id: 3,
-            name: "Aziz",
+            name: "Eziz",
             rank: "Barber",
             image: "/images/barbers/barber3.jpg",
             imageFull: "/images/barbers/barberFull3.jpg",

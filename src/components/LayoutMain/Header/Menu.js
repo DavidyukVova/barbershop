@@ -21,6 +21,9 @@ const Menu = () => {
             <NavLink to={`/${i18n.language}/gallery`} className={classes.menuLink} activeClassName={classes.active}>
                 {i18n.t('Gallery')}
             </NavLink>
+            <NavLink to={`/${i18n.language}/training`} className={classes.menuLink} activeClassName={classes.active}>
+                {i18n.t('Training')}
+            </NavLink>
         </nav>
     )
 };

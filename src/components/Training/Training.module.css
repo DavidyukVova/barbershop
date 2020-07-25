@@ -292,15 +292,11 @@
     display: block;
     text-align: center;
     background: rgba(10, 14, 14, 0.7);
-    transition: 0.15s all linear;
+    height: 99%;
 }
 
 .planeSection .imageWrap .info.lastInfo {
     max-width: 1095px;
-}
-
-.planeSection .imageWrap:hover .info {
-    height: 99%;
 }
 
 .planeSection .imageWrap .info .title {
@@ -310,16 +306,9 @@
 }
 
 .planeSection .imageWrap .moreInfo {
-    /*transition: all 0.15s linear;*/
-    visibility: hidden;
-    z-index: 0;
+    z-index: 2;
     height: 0;
     padding: 0 20px;
-}
-
-.planeSection .imageWrap:hover .moreInfo {
-    z-index: 2;
-    visibility: visible;
     height: 100%;
 }
 

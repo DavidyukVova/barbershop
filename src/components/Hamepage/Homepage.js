@@ -13,9 +13,9 @@ export default () => {
     return (
         <LayoutMain>
             <FirstSection/>
+            <FourSection/>
             <SecondSection/>
             <ThirdSection/>
-            <FourSection/>
             <FiveSection/>
             <SixthSection/>
         </LayoutMain>

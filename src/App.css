@@ -115,6 +115,32 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
+.modal-content {
+    background-color: #0A0E0E;
+}
+
+.modal-header {
+    color: #ffffff;
+    border: none;
+}
+
+.close {
+    opacity: 1;
+    color: #ffffff;
+}
+
+.close:hover {
+    color: #FFE600;
+}
+
+.modal-body {
+    color: #ffffff;
+}
+
+.modal-footer {
+    border: none;
+}
+
 .yButton .yButtonBackground {
     background-color: #FFE600 !important;
     opacity: 1 !important;

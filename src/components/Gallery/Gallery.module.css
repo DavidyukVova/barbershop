@@ -20,6 +20,14 @@
     overflow-x: hidden;
 }
 
+.galleryWrap img {
+    cursor: pointer;
+}
+
+.fullImage {
+    width: 100%;
+}
+
 .scrollBar {
     background-color: #eeeeee;
     border-radius: 4px;

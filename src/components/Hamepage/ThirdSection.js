@@ -59,6 +59,23 @@ const ThirdSection = ({barbers, history}) => {
                             </Button>
                         </Col>
                     </Row>
+                    <div className={classes.bottomBlock}>
+                        <h6>
+                            {i18n.t('Barber Art Training Set')}
+                        </h6>
+                        <Row>
+                            <Col xs={12}>
+                                <Button
+                                    size={"lg"}
+                                    className={`${classes.centeredButton} ${classes.buttonNoBorder}`}
+                                    variant="outline-secondary"
+                                    onClick={e => {history.push(`/${i18n.language}/training`); handleScroll()}}
+                                >
+                                    {i18n.t('More information')}
+                                </Button>
+                            </Col>
+                        </Row>
+                    </div>
                 </Container>
             </div>
         </div>

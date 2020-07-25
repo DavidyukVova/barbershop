@@ -179,7 +179,6 @@
 .fourSection {
     background-color: #0a0e0e;
     padding-top: 80px;
-    padding-bottom: 74px;
 }
 
 .fourSection .smallDescription {
@@ -229,13 +228,14 @@
     font-weight: 400;
 }
 
-.fourSection .bottomBlock {
+.thirdSection .bottomBlock {
     border: 1px solid #ffffff;
     border-radius: 2px;
     padding: 43px 48px 42px;
+    margin-top: 70px;
 }
 
-.fourSection .bottomBlock h6 {
+.thirdSection .bottomBlock h6 {
     font-weight: 700;
     font-size: 32px;
     line-height: 30px;

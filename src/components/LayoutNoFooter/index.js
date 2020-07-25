@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from "./Header";
 import classes from './Layout.module.css'
-import TrainingWidget from "../Widgets/TrainingWidget";
 
 const Layout = (props) => {
     return (
@@ -10,7 +9,6 @@ const Layout = (props) => {
             <div className={classes.main}>
                 {props.children}
             </div>
-            <TrainingWidget/>
         </div>
     )
 };
