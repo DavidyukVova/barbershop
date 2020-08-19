@@ -23,7 +23,7 @@ const FourSection = ({history}) => {
                     <div className={classes.priceList}>
                         <div className={classes.item}>
                             <h6>
-                                {i18n.t('Top barber')}
+                                Top barber
                             </h6>
                             <div className={classes.list}>
                                 <p>
@@ -43,7 +43,7 @@ const FourSection = ({history}) => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Beard styling')}
+                                    {i18n.t('Beard tim')}
                                 </p>
                                 <label>
                                     300{i18n.t('uah')}
@@ -67,7 +67,7 @@ const FourSection = ({history}) => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Hair camouflage')}
+                                    {i18n.t('Hair coloring')}
                                 </p>
                                 <label>
                                     400{i18n.t('uah')}
@@ -75,7 +75,7 @@ const FourSection = ({history}) => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Beard camouflage')}
+                                    {i18n.t('Beard coloring')}
                                 </p>
                                 <label>
                                     350{i18n.t('uah')}
@@ -83,7 +83,7 @@ const FourSection = ({history}) => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Styling')}
+                                    {i18n.t('Hairstyling')}
                                 </p>
                                 <label>
                                     100{i18n.t('uah')}
@@ -93,7 +93,7 @@ const FourSection = ({history}) => {
 
                         <div className={classes.item}>
                             <h6>
-                                {i18n.t('Barber')}
+                                Barber
                             </h6>
                             <div className={classes.list}>
                                 <p>
@@ -113,7 +113,7 @@ const FourSection = ({history}) => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Beard styling')}
+                                    {i18n.t('Beard tim')}
                                 </p>
                                 <label>
                                     200{i18n.t('uah')}
@@ -137,7 +137,7 @@ const FourSection = ({history}) => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Hair camouflage')}
+                                    {i18n.t('Hair coloring')}
                                 </p>
                                 <label>
                                     400{i18n.t('uah')}
@@ -145,7 +145,7 @@ const FourSection = ({history}) => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Beard camouflage')}
+                                    {i18n.t('Beard coloring')}
                                 </p>
                                 <label>
                                     350{i18n.t('uah')}
@@ -153,7 +153,7 @@ const FourSection = ({history}) => {
                             </div>
                             <div className={classes.list}>
                                 <p>
-                                    {i18n.t('Styling')}
+                                    {i18n.t('Hairstyling')}
                                 </p>
                                 <label>
                                     100{i18n.t('uah')}

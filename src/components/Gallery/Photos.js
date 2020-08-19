@@ -12,12 +12,14 @@ const Photos = ({photo, index}) => {
 
     return (
         <React.Fragment>
-            <Col md={6}>
-                <img src={process.env.PUBLIC_URL + photo} alt={index} onClick={handleShow}/>
+
+            <Col md={6} key={index}>
+                <img src={process.env.PUBLIC_URL + photo.image} alt={index} onClick={handleShow}/>
             </Col>
 
-            <Modal size={"lg"} show={show} onHide={handleClose} centered aria-labelledby="contained-modal-title-vcenter">
-                <img className={classes.fullImage} src={process.env.PUBLIC_URL + photo} alt={'full' + index}/>
+            <Modal size={"xl"} show={show} onHide={handleClose} centered
+                   aria-labelledby="contained-modal-title-vcenter">
+                <img className={classes.fullImage} src={process.env.PUBLIC_URL + photo.imageFull} alt={'full' + index}/>
             </Modal>
         </React.Fragment>
     )

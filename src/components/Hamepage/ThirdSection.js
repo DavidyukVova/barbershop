@@ -30,7 +30,7 @@ const ThirdSection = ({barbers, history}) => {
                                 barbers.barbers.map((barber, index) => (
                                     <Col md={4} key={index}>
                                         <div className={classes.item}>
-                                            <Link to={`/${i18n.language}/barber/${barber.id}`} onClick={handleScroll}>
+                                            <Link to={`/${i18n.language}/barber/${barber.id}/`} onClick={handleScroll}>
                                                 <img src={process.env.PUBLIC_URL+barber.image} alt={barber.name}/>
                                                 <div className={classes.info}>
                                                     <h6>
@@ -53,7 +53,7 @@ const ThirdSection = ({barbers, history}) => {
                                 size={"lg"}
                                 className={`${classes.centeredButton} ${classes.buttonNoBorder}`}
                                 variant="outline-secondary"
-                                onClick={e => (history.push(`/${i18n.language}/barbers`))}
+                                onClick={e => (history.push(`/${i18n.language}/barbers/`))}
                             >
                                 {i18n.t('Learn more')}
                             </Button>
@@ -69,7 +69,7 @@ const ThirdSection = ({barbers, history}) => {
                                     size={"lg"}
                                     className={`${classes.centeredButton} ${classes.buttonNoBorder}`}
                                     variant="outline-secondary"
-                                    onClick={e => {history.push(`/${i18n.language}/training`); handleScroll()}}
+                                    onClick={e => {history.push(`/${i18n.language}/training/`); handleScroll()}}
                                 >
                                     {i18n.t('More information')}
                                 </Button>

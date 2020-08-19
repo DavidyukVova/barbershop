@@ -34,10 +34,10 @@ const Header = () => {
             <div className={classes.headerContainer}>
                 <Container fluid={true} className={classes.header}>
                     <Row className="justify-content-md-center align-items-center">
-                        <Col lg={4} className={"d-none d-lg-block"}>
+                        <Col lg={5} className={"d-none d-lg-block"}>
                             <Menu/>
                         </Col>
-                        <Col lg={4} md={9}>
+                        <Col lg={2} md={9}>
                             <div className={classes.logoWrap}>
                                 <Link to={`/${i18n.language}/`}>
                                     <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo"/>
@@ -47,7 +47,7 @@ const Header = () => {
                         <Col md={3} className={"d-none d-md-block d-lg-none"}>
                             <LangDropdown/>
                         </Col>
-                        <Col lg={4} className={"d-none d-lg-block"}>
+                        <Col lg={5} className={"d-none d-lg-block"}>
                             <Info/>
                         </Col>
                         <Col md={12} className={"d-block d-lg-none"}>

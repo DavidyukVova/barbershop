@@ -25,6 +25,8 @@ const resources = {
     }
 };
 
+const languageBrowser = window.navigator.language || navigator.userLanguage;
+
 export const languages = ['en','ru', 'uk'];
 
 i18n
@@ -35,7 +37,7 @@ i18n
     .use(intervalPlural)
     .init({
             resources,
-            fallbackLng: "en",
+            fallbackLng: languageBrowser === 'ru-RU' ? 'ru' : languageBrowser === 'en-EN' ? 'en' : languageBrowser === 'uk-UK' ? 'uk' : 'en',
             keySeparator: false, // we do not use keys in form messages.welcome
             whitelist: languages,
             interpolation: {

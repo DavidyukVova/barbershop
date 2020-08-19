@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import i18n, {languages} from './i18n';
-import {Route, Switch} from "react-router";
+import {Redirect, Route, Switch} from "react-router";
 import {withRouter} from "react-router";
 import Homepage from './components/Hamepage/Homepage';
 import store from "./store";
@@ -17,6 +17,7 @@ import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
 import Barber from "./components/Barbers/Barber/Barber";
 import Training from "./components/Training/Training";
+import Covid from "./components/Covid19/Covid";
 
 class App extends React.Component {
 
@@ -56,23 +57,28 @@ class App extends React.Component {
         }
     }
 
+
     render() {
+
         return (
             <Route>
                 {languages.map(lng => (
                         <Route key={lng}>
                             <Switch>
-                            <Route exact path={`/${lng}/`} component={Homepage} key="Homepage"/>
-                            <Route exact path={`/${lng}/training`} component={Training} key="Training"/>
-                            <Route exact path={`/${lng}/barbers`} component={Barbers} key="barbers"/>
-                            <Route exact path={`/${lng}/services`} component={Services} key="services"/>
-                            <Route exact path={`/${lng}/gallery`} component={Gallery} key="gallery"/>
-                            <Route exact path={`/${lng}/about`} component={About} key="about"/>
-                            <Route exact path={`/${lng}/contacts`} component={Contacts} key="contacts"/>
-                            <Route path={`/${lng}/barber/:id`} component={Barber} key="barber"/>
+                                <Route exact path={`/${lng}/`} component={Homepage} key="Homepage"/>
+                                <Route exact path={`/${lng}/training/`} component={Training} key="Training"/>
+                                <Route exact path={`/${lng}/barbers/`} component={Barbers} key="barbers"/>
+                                <Route exact path={`/${lng}/services/`} component={Services} key="services"/>
+                                <Route exact path={`/${lng}/gallery/`} component={Gallery} key="gallery"/>
+                                <Route exact path={`/${lng}/about/`} component={About} key="about"/>
+                                <Route exact path={`/${lng}/contacts/`} component={Contacts} key="contacts"/>
+                                <Route exact path={`/${lng}/covid-19/`} component={Covid} key="covid"/>
+                                <Route exact path={`/${lng}/barber/:id/`} component={Barber} key="barber"/>
 
-
-                            <Route path={`/${lng}/`} component={NotFound} />
+                                <Route path={`/${lng}/`}>
+                                    <Redirect to={`/${lng}/notfound/`}/>
+                                    <Route exact path={`/${lng}/notfound/`} component={NotFound} key="notfound"/>
+                                </Route>
                             </Switch>
                         </Route>
                     )
